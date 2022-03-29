@@ -1,0 +1,20 @@
+name: cmip6xarray
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.7
+  - pip
+  - numpy
+  - scipy
+  - matplotlib
+  - cartopy
+  - ipykernel
+  - dask
+  - xarray
+  - arm_pyart
+  - intake-esm
+  - pip:
+      - git+https://github.com/jbusecke/xmovie.git
+
+  
